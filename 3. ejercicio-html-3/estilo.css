@@ -1,0 +1,34 @@
+
+
+#formulario{
+    margin: 0 auto;
+    align-content: center;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+#nombre,#mail{
+    border-color: red;
+}
+
+fieldset{
+    background-color: silver;
+    padding: 1rem;
+
+}
+
+fieldset:hover{
+    background-color:grey;
+}
+
+fieldset:first-of-type,fieldset:last-of-type {
+    border-bottom-color: black;
+    border-bottom-width:5px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border:0;
+    
+}

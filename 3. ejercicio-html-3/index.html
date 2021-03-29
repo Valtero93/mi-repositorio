@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./estilo.css">
+  <title>Ejercicio HTML 3</title>
+</head>
+
+<body>
+    <h1>
+        Formulario
+    </h1>
+
+    <form id="formulario" method="GET">
+      <fieldset>
+          <legend>Nombre</legend>
+          <label>Nombre: </label> 
+          <input id="nombre" name="nombre" type="text"  autofocus required/>
+      </fieldset>
+
+      <fieldset>
+          <legend>Correo Electronico</legend>
+          <label>Correo Electronico: </label> 
+          <input type="email" name="mail" id="mail" required/>
+      </fieldset>
+
+      <fieldset>
+          <legend>URL</legend>
+          <label>URL: </label> 
+          <input type="url" name="web" placeholder="Escribe la URL de tu pagina web personal">
+      </fieldset>
+
+      <fieldset>
+        <legend>Fecha</legend>
+        <label>Fecha: </label> 
+        <input type="date" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Tiempo</legend>
+        <label>Tiempo: </label> 
+        <input type="time" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Fecha y hora</legend>
+        <label>Fecha y hora: </label> 
+        <input type="datetime-local" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Mes</legend>
+        <label>Mes: </label> 
+        <input type="month" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Semana</legend>
+        <label>Semana: </label> 
+        <input type="week" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Numero</legend>
+        <label>Numero: </label> 
+        <input type="number" min="-10" max="10">
+      </fieldset>
+
+      <fieldset>
+        <legend>Telefono</legend>
+        <label>Telefono: </label> 
+        <input type="tel" value="+34">
+      </fieldset>
+
+      <fieldset>
+        <legend>Busqueda</legend>
+        <label>Busqueda: </label> 
+        <input type="search" disabled>
+      </fieldset>
+
+      <fieldset>
+        <legend>Color favorito</legend>
+        <label>Color: </label> 
+        <input type="color" >
+      </fieldset>
+
+      <fieldset>
+        <legend>Enviar formulario</legend>
+        <a href="" ></a><button  type="submit" form="formulario">ENVIAR FORMULARIO</button>
+      </fieldset>
+    </form>
+
+</body>
+
+</html>

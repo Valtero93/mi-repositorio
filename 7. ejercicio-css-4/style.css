@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(236, 165, 59);
+    text-align: center;
+   
+}
+
+h1{
+    
+    color:white;
+    font-size:700%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#foto1,#foto2,#foto3 {
+    width:150px;
+    height:150px;
+    border-radius:150px;
+    margin-top: 20px;
+}
+
+#facebook,#instagram,#twitter,#linkedin{
+    width: 2rem;
+    margin:10px;
+    
+}
+
+div{
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px rgb(85, 82, 82);  
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+p{
+    background-color:rgb(129, 13, 238) ;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+main{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div:hover{
+    transition-duration: 1s;
+    transform: scale(1.2); 
+
+}
+
+h1,div{
+    /* opacity: 0.5;
+    transition-duration: 3s;
+    opacity: 1; */
+    animation-name: difuminar;
+    animation-duration: 3s;
+}
+
+@keyframes difuminar {
+    0% {
+      
+      opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.6;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
