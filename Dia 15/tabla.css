@@ -1,0 +1,58 @@
+/* th{
+    background-color: blueviolet;
+    padding:0.5rem;
+}
+ 
+td{
+    background-color: rgb(196, 157, 233);
+} */
+
+td,
+th {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+table{
+    border-collapse: collapse; /* quita los bordes dentro de la tabla */
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    font-family: sans-serif;
+
+}
+
+thead {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+tbody tr {
+    background-color: rgb(243, 216, 250);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(216, 157, 240);
+}
+
+
+.alta{
+    background-color: red;
+}
+
+.abaja{
+    background-color: rgb(20, 149, 235);
+}
